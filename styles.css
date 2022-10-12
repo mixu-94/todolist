@@ -20,7 +20,7 @@ body {
 	min-height: 100vh;
 	color: #FFF;
 	background-color: var(--dark);
-}
+
 
 header {
 	padding: 2rem 1rem;
@@ -37,7 +37,7 @@ header h1{
 }
 
 #new-task-form {
-	display: flex;;
+
 }
 
 input, button {
@@ -65,6 +65,7 @@ input, button {
 	color: var(--pink);
 	font-size: 1.25rem;
 	font-weight: 700;
+
 	background-image: linear-gradient(to right, var(--pink), var(--purple));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -87,6 +88,7 @@ main {
 	margin: 0 auto;
 }
 
+
 .task-list {
 	padding: 1rem;
 }
@@ -98,7 +100,7 @@ main {
 	margin-bottom: 1rem;
 }
 
-#tasks .task {
+
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--darkest);
