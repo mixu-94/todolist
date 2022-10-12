@@ -6,7 +6,6 @@
 	--pink: #EC4899;
 	--purple: #8B5CF6;
 	--light: #EEE;
-
 }
 
 * {
@@ -21,8 +20,7 @@ body {
 	min-height: 100vh;
 	color: #FFF;
 	background-color: var(--dark);
-	
-}
+
 
 header {
 	padding: 2rem 1rem;
@@ -39,7 +37,7 @@ header h1{
 }
 
 #new-task-form {
-	display: flex;
+
 }
 
 input, button {
@@ -67,8 +65,7 @@ input, button {
 	color: var(--pink);
 	font-size: 1.25rem;
 	font-weight: 700;
-	border: solid 2px;
-	border-radius: 10px;
+
 	background-image: linear-gradient(to right, var(--pink), var(--purple));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -91,9 +88,6 @@ main {
 	margin: 0 auto;
 }
 
-.task {
-	/* border: solid 1px; */
-}
 
 .task-list {
 	padding: 1rem;
@@ -106,7 +100,7 @@ main {
 	margin-bottom: 1rem;
 }
 
-#Todo-liste-container .task {
+
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--darkest);
