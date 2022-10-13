@@ -49,6 +49,7 @@ form.addEventListener('submit', (e) => {
     const task_delete_el = document.createElement('button');
     task_delete_el.classList.add('delete');
     task_delete_el.innerText = 'Delete';
+
     // append edit und delete button
     task_actions_el.appendChild(task_edit_el);
     task_actions_el.appendChild(task_delete_el);
@@ -56,7 +57,13 @@ form.addEventListener('submit', (e) => {
     // Input value after submission
     input.value = '';
 
+    console.log(task_el);
 
+    
+
+    task_delete_el.addEventListener('click', (e) => {
+        list_el.removeChild(task_el);
+    });
 
 });
 // });
